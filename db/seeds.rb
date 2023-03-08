@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+  Restaurant.create(address: Faker::Address.street_address, phone_number: Faker::PhoneNumber.phone_number, name: Faker::Company.name, category: "chinese")
+  Restaurant.create(address: Faker::Address.street_address, phone_number: Faker::PhoneNumber.phone_number, name: Faker::Company.name, category: "italian" )
+  Restaurant.create(address: Faker::Address.street_address, phone_number: Faker::PhoneNumber.phone_number, name: Faker::Company.name, category: "belgian" )
+  Restaurant.create(address: Faker::Address.street_address, phone_number: Faker::PhoneNumber.phone_number, name: Faker::Company.name, category: "japanese")
+  Restaurant.create(address: Faker::Address.street_address, phone_number: Faker::PhoneNumber.phone_number, name: Faker::Company.name, category: "french")

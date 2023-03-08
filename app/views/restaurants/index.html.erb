@@ -1,0 +1,9 @@
+<h1>List of all restaurants</h1>
+
+<ul class="d-flex flex-column ">
+  <% @restaurants.each do |restaurant| %>
+    <li class="d-inline-block "><%= link_to(restaurant.name, restaurant_path(restaurant))%>
+    
+  </li>
+  <% end %>
+</ul>
